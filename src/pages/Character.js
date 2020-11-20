@@ -1,11 +1,11 @@
-const Character = () => {
+export const Character = () => {
   const view = `
     <div class="Characters-inner">
       <article class="Characters-card">
-        <img src="Img" alt="" />
+        <img src="Img" alt="name" />
         <h2>Name</h2>
       </article>
-      <article class="Characters-card>
+      <article class="Characters-card">
         <h3>Episodes:</h3>
         <h3>Status:</h3>
         <h3>Spiecies:</h3>
@@ -15,8 +15,6 @@ const Character = () => {
       </article>
     </div>
   `;
-
   return view;
 };
 
-export default Character;
